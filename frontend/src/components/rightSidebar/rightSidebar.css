@@ -40,5 +40,19 @@
 }
 
 .rs-media{
+    padding: 0px 20px;
+    font-size: 13px;
+}
+
+.rs-media div{
+    max-height: 180px;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin-top: 8px;
+}
+
+.rs-media div img{
     
 }
